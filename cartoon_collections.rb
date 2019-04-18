@@ -17,6 +17,7 @@ def find_the_cheese(snacks)
   
   
   snacks.find do |snack|
+    cheese_types.each { |cheese| cheese.include 
     
     { |i| i % 5 == 0 and i % 7 == 0 }   #=> nil
   
