@@ -12,13 +12,7 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
-  snacks.find 
-  
-  
   snacks.find do |snack|
-    cheese_types.each { |cheese| cheese.include 
-    
-    { |i| i % 5 == 0 and i % 7 == 0 }   #=> nil
-  
+    cheese_types.each { |cheese| snack.include(cheese) }
+  end 
 end
