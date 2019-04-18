@@ -15,4 +15,9 @@ def find_the_cheese(snacks)
   
   snacks.find 
   
+  
+  snacks.find do |snack|
+    
+    { |i| i % 5 == 0 and i % 7 == 0 }   #=> nil
+  
 end
