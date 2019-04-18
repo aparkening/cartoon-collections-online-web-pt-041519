@@ -17,5 +17,6 @@ def find_the_cheese(snacks)
       if snack.include?(cheese)
         return cheese 
       end
+    end 
   end 
 end
